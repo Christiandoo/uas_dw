@@ -3,8 +3,7 @@ import numpy as np
 import pickle
 
 # Load model yang sudah disimpan
-model = pickle.load(open('/absolute/path/to/model_uas.pkl', 'rb'))
-
+model = pickle.load(open('model_uas.pkl', 'rb'))
 
 # Judul aplikasi
 st.title("Prediksi Premi Asuransi")
